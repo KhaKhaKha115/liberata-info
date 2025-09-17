@@ -7,9 +7,22 @@
   align-items: center;
   position: sticky;
   top: 0;
+  left:0;
+
   z-index: 9;
   margin-left: auto;
   margin-right: auto;
+  
+
+
+  height: 80px;
+  position: fixed;
+
+  background-image: url(/src/images/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
 }
 
 .Header-body {
@@ -46,6 +59,7 @@
 .Header-navbar {
   visibility: hidden;
   color: white;
+
 }
 
 .Header-nav a {
